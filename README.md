@@ -18,5 +18,5 @@ Un sistema de escritorio ligero para la gestión de estudiantes, notas y asisten
 ## ⚙️ Uso
 
 Para ejecutar el programa, simplemente abre tu terminal en la carpeta del proyecto y ejecuta el archivo principal:
-
+```bash
 python santarita.py
