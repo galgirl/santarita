@@ -1,22 +1,26 @@
-# Santa Rita - Sistema de Gestión Académica
+# Santa Rita - Sistema de Gestión para Catequesis
 
-Un sistema de escritorio ligero para la gestión de estudiantes, notas y asistencia[cite: 1]. Desarrollado en Python con una estética gráfica clásica estilo "Win2000"[cite: 1].
+Un sistema de escritorio diseñado a la medida para facilitar la gestión de estudiantes, asistencia y calificaciones en grupos de catequesis. 
+
+**🤖 Desarrollo mediante "Vibecoding"**
+Este programa no fue escrito manualmente por un humano. Fue desarrollado íntegramente mediante inteligencia artificial (*vibecoding*), bajo supervisión humana, para ajustarse exactamente a las necesidades de los catequistas. Gracias a este método, el software se enfoca en ser **estrictamente funcional y práctico**. No posee una estética fija ni busca ser un programa visualmente moderno; su único objetivo es cumplir con el trabajo de forma rápida y sin complicaciones.
 
 ## 🚀 Características
 
-* **Base de Datos Local:** Utiliza SQLite para crear automáticamente un archivo `registro_estudiantes.db`, manteniendo toda la información de forma local y privada[cite: 1].
-* **Interfaz Organizada:** Interfaz gráfica construida con Tkinter, separada de forma estructurada en pestañas para "Datos Personales" y "Control Académico"[cite: 1].
-* **Gestión de Calificaciones y Faltas:** Permite registrar inasistencias (a misa y a clase), notas de libro, puntos extra, exámenes y observaciones generales[cite: 1].
-* **Búsqueda en Tiempo Real:** Panel de búsqueda integrado para filtrar y seleccionar estudiantes rápidamente[cite: 1].
-* **Pantalla de Carga:** "Splash screen" de inicio asíncrono con soporte para cargar un logotipo personalizado (`logo.png`)[cite: 1].
+* **Base de Datos Local:** Utiliza SQLite para crear automáticamente un archivo `registro_estudiantes.db`, manteniendo toda la información de forma local y privada en el equipo.
+* **Control Específico para Catequesis:** Permite registrar métricas clave como inasistencias (a misa y a clase), notas de libro, puntos extra, exámenes y observaciones generales.
+* **Interfaz Práctica:** Interfaz gráfica construida con Tkinter bajo un estilo visual clásico ("Win2000")[cite: 1], separada en pestañas para "Datos Personales" y "Control Académico".
+* **Búsqueda en Tiempo Real:** Panel integrado para filtrar y seleccionar estudiantes rápidamente desde la lista.
+* **Pantalla de Carga:** "Splash screen" de inicio asíncrono preparado para mostrar un logotipo institucional (`logo.png`).
 
 ## 🛠️ Tecnologías
 
-* **Lenguaje:** Python 3.x[cite: 1]
-* **Librerías:** `tkinter`, `sqlite3`, `os` (todas son nativas de Python, por lo que no se requiere instalar dependencias externas mediante `pip`)[cite: 1]
+* **Lenguaje:** Python 3.x.
+* **Librerías:** `tkinter`, `sqlite3`, `os` (todas son nativas de Python, por lo que no se requiere instalar dependencias externas mediante `pip`).
 
 ## ⚙️ Uso
 
 Para ejecutar el programa, simplemente abre tu terminal en la carpeta del proyecto y ejecuta el archivo principal:
+
 ```bash
 python santarita.py
